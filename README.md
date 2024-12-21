@@ -1,4 +1,4 @@
-# Bureau De Rondonnee
+# Bureau De Rondonnée
 ### A Toy Ruby on Rails Product API
 
 - Rudy on Rails
