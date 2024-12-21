@@ -49,7 +49,9 @@ rails s
 
 visit: `http://localhost:3000/products`
 
-## Deploy to Vercel - actually scratch that - use heruko - Vercel isn't as magic as it should be with Rails!
+## Heroku 
+
+Note: I first tried Vercel and had too many issues with their experimental Rails deployment process. It's much easier using Docker and Heroku for Rails.
 
 ```
 brew tap heroku/brew && brew install heroku
