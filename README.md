@@ -11,6 +11,15 @@ a small inventory management app to learn the basics of ruby on rails
 
 # Basic Setup
 
+create a .env file with:
+```
+DB_URI_LOCALHOST=
+DB_URI_REMOTE_VERCEL=
+REMOTE_ENV=
+DB_NAME=
+DB_USER=
+```
+
 1. clone the repo
 ```
 git clone https://github.com/yourusername/bureau-de-rondonnee.git
@@ -82,13 +91,13 @@ An admin could apply a few simple promotions like to creating 10% discount for c
 Similar to product management, they would do the same CRUD for a promotion. 
 
 ```
-rails new bureau_de_rondonnee_api --api --database=postgresql
+rails new bureau_de_rondonnee --api --database=postgresql
 ```
 
 ## Create a Product
 
 ```
-cd bureau_de_rondonnee_api
+cd bureau_de_rondonnee
 rails generate scaffold Product name:string price:decimal promotion_applied:boolean stock_level:integer
 ```
 
