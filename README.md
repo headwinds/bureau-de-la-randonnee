@@ -1,4 +1,8 @@
-# bureau-de-rondonnee
+# Bureau De Rondonnee
+### A Toy Ruby on Rails Product API
+
+- Rudy on Rails
+- PostgreSQL 
 
 <img src="./bureau_de_rondonee.png" width="500" />
 
@@ -25,15 +29,34 @@ DB_URI_LOCALHOST=postgresql://your-name-here:@localhost:5432/database-name-here
 DB_URI_REMOTE_VERCEL=vercel-database-connection-string-here
 VERCEL_ENV=production
 ```
-4. setup db
+4. setup and seed db
 ```
 rails db:create
 rails db:migrate
+rails db:seed
 ```
 5. run rails
 ```
 rails s
 ```
+
+visit: `http://localhost:3000/products`
+
+## Deploy to Vercel - actually scratch that - use heruko - Vercel isn't as magic as it should be with Rails!
+
+```
+brew tap heroku/brew && brew install heroku
+heroku login
+heroku create
+git remote add heroku
+https://git.heroku.com/bureau_de_rondonnee.git
+git push heroku main
+heroku run rails db:migrate
+heroku run rails db:seed
+heroku open
+```
+
+By following these steps, we can deploy your Dockerized Rails application to Heroku. Heroku's free tier is suitable for hobby projects and provides a straightforward way to deploy and manage your application.
 
 # Tutorial 
 
