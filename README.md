@@ -33,11 +33,9 @@ bundle install
 ```
 
 3. update the environment variables
-```
-DB_URI_LOCALHOST=postgresql://your-name-here:@localhost:5432/database-name-here
-DB_URI_REMOTE_VERCEL=vercel-database-connection-string-here
-VERCEL_ENV=production
-```
+
+see your newly created .env file and fill in the strings if you haven't already
+
 4. setup and seed db
 ```
 rails db:create
