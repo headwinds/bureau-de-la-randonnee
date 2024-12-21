@@ -58,7 +58,7 @@ brew tap heroku/brew && brew install heroku
 heroku login
 heroku create
 git remote add heroku
-https://git.heroku.com/bureau_de_rondonnee.git
+https://git.heroku.com/bureau_de_la_randonnee.git
 git push heroku main
 heroku run rails db:migrate
 heroku run rails db:seed
@@ -66,6 +66,8 @@ heroku open
 ```
 
 By following these steps, we can deploy your Dockerized Rails application to Heroku. Heroku's free tier is suitable for hobby projects and provides a straightforward way to deploy and manage your application.
+
+[Dokku](https://dokku.com/), [Fly](https://fly.io/docs/rails/), and [Render](https://render.com/docs/deploy-rails) are alternatives.
 
 # Tutorial 
 
@@ -91,13 +93,13 @@ An admin could apply a few simple promotions like to creating 10% discount for c
 Similar to product management, they would do the same CRUD for a promotion. 
 
 ```
-rails new bureau_de_rondonnee --api --database=postgresql
+rails new bureau_de_la_randonnee --api --database=postgresql
 ```
 
 ## Create a Product
 
 ```
-cd bureau_de_rondonnee
+cd bureau_de_la_randonnee
 rails generate scaffold Product name:string price:decimal promotion_applied:boolean stock_level:integer
 ```
 
@@ -137,6 +139,7 @@ Can we connect to [GoBolt API](https://www.docs.parcel.gobolt.com/) to ship a pr
 
 - [4 hours Rails course on Youtube](https://www.youtube.com/watch?v=fmyvWz5TUWg)
 - [Create a Basic API with Rails](https://www.youtube.com/watch?v=3S9fyfmCf1A&t=4s)
+- [Should you use Ruby on Rails in 2024?](https://www.youtube.com/watch?v=w7UzwO673Gg)
 
 ## Troubleshooting
 
