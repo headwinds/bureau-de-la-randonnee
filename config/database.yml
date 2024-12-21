@@ -49,4 +49,4 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV['DB_URI_REMOTE_VERCEL'] %>
+  url: <%= ENV['DB_URI_REMOTE'] %>

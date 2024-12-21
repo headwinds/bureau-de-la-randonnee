@@ -14,7 +14,7 @@ a small inventory management app to learn the basics of ruby on rails
 create a .env file with:
 ```
 DB_URI_LOCALHOST=
-DB_URI_REMOTE_VERCEL=
+DB_URI_REMOTE=
 REMOTE_ENV=
 DB_NAME=
 DB_USER=
