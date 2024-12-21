@@ -4,7 +4,7 @@
 - Rudy on Rails
 - PostgreSQL 
 
-<img src="./bureau_de_rondonee.png" width="500" />
+<img src="./bureau_de_rondonnee.png" width="500" />
 
 a small inventory management app to learn the basics of ruby on rails
 
