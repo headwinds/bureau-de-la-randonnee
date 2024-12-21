@@ -1,4 +1,4 @@
-# Bureau De Rondonnée
+# Bureau De La Randonnée
 ### A Toy Ruby on Rails Product API
 
 - Rudy on Rails
