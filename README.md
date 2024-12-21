@@ -22,8 +22,8 @@ DB_USER=
 
 1. clone the repo
 ```
-git clone https://github.com/yourusername/bureau-de-rondonnee.git
-cd bureau-de-rondonnee
+git clone https://github.com/yourusername/bureau-de-la-randonnee.git
+cd bureau-de-la-randonnee
 ```
 
 2. install the dependencies
